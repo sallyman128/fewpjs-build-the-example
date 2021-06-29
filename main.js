@@ -4,8 +4,15 @@ const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
 
+// document.addEventListener("DOMContentLoaded", hideModal());
 
+// async function hideModal() {
+//   document.querySelector("#modal").classList.add("hidden");
+// }
 
+document.addEventListener("DOMContentLoaded", async function hideModal() {
+  document.querySelector("#modal").classList.add("hidden");
+});
 
 //------------------------------------------------------------------------------
 // Don't change the code below: this function mocks the server response
